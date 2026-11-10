@@ -1,0 +1,83 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;font-weight:500;src:url(node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+@font-face{font-family:Inter;font-weight:700;src:url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:Inter;font-weight:800;src:url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+:root{--teal:#19e3d1;--pink:#ff4fa3;--yel:#ffd166;--txt:#cbd5e1;--mut:#64748b;--bord:#334155}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#000;font-family:Inter;color:var(--txt);position:relative;overflow:hidden}
+.ab{position:absolute}
+.pill{left:50%;transform:translateX(-50%);top:30px;border:2px solid var(--bord);border-radius:40px;padding:10px 28px;font-weight:700;font-size:19px;letter-spacing:.22em;white-space:nowrap}
+.title{top:88px;width:100%;text-align:center;font-weight:800;font-size:60px;color:var(--pink);filter:drop-shadow(0 0 5px currentColor)}
+.sub{top:166px;width:100%;text-align:center;font-weight:500;font-size:25px}
+.sec{font-weight:700;font-size:18px;letter-spacing:.2em;color:var(--mut)}
+.node{border:2px solid var(--teal);border-radius:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;font-size:21px;color:#fff;background:#06100f;text-align:center;line-height:1.15;padding:0 8px}
+.node small{font-weight:500;font-size:15px;color:var(--mut);margin-top:5px}
+.row{left:700px;width:310px;height:48px;border:2px solid var(--bord);border-radius:24px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-weight:500;font-size:19px;background:#000;color:#fff}
+.row b{font-weight:700;font-size:15px;letter-spacing:.06em;color:var(--teal)}
+.lab{font-weight:500;font-size:17px;color:var(--txt);display:flex;align-items:center;gap:8px;white-space:nowrap}
+.n{flex:none;width:32px;height:32px;border-radius:50%;background:var(--teal);color:#000;font-weight:800;font-size:18px;display:flex;align-items:center;justify-content:center}
+.n.p{background:var(--pink)} .n.g{background:#cbd5e1}
+.card{width:310px;height:104px;border:2px solid var(--bord);border-radius:20px;display:flex;flex-direction:column;justify-content:center;padding:0 20px;background:#000}
+.card b{font-weight:800;font-size:23px;color:#fff}
+.card span{font-weight:500;font-size:16px;color:var(--txt);margin-top:4px}
+.foot{top:1302px;width:100%;text-align:center;font-weight:700;font-size:15px;letter-spacing:.3em;color:var(--mut)}
+</style></head><body>
+<div class="ab pill">NEW MODEL CLASS · JEV</div>
+<div class="ab title">Decisions, not sentences</div>
+<div class="ab sub">System One models and Jev, in one picture</div>
+
+<svg class="ab" style="left:0;top:0" width="1080" height="1350">
+  <defs>
+    <marker id="ah" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#cbd5e1" stroke-width="2"/></marker>
+    <marker id="ahp" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#ff4fa3" stroke-width="2"/></marker>
+  </defs>
+  <rect x="30" y="222" width="1020" height="290" rx="30" fill="none" stroke="#64748b" stroke-width="3"/>
+  <rect x="30" y="536" width="1020" height="490" rx="30" fill="none" stroke="#19e3d1" stroke-width="3" style="filter:drop-shadow(0 0 4px #19e3d1)"/>
+  <rect x="680" y="600" width="350" height="236" rx="22" fill="none" stroke="#ff4fa3" stroke-width="3" style="filter:drop-shadow(0 0 4px #ff4fa3)"/>
+  <rect x="30" y="1050" width="1020" height="222" rx="30" fill="none" stroke="#ff4fa3" stroke-width="3" style="filter:drop-shadow(0 0 4px #ff4fa3)"/>
+  <g class="flow" fill="none" stroke-width="2.5" stroke-dasharray="12 8">
+    <line x1="250" y1="350" x2="316" y2="350" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <line x1="510" y1="350" x2="576" y2="350" stroke="#ff4fa3" marker-end="url(#ahp)"/>
+    <line x1="770" y1="350" x2="836" y2="350" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <line x1="300" y1="700" x2="370" y2="700" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <line x1="600" y1="700" x2="676" y2="700" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <polyline points="855,836 855,935 604,935" stroke="#cbd5e1" marker-end="url(#ah)"/>
+  </g>
+</svg>
+
+<!-- LLM section -->
+<div class="ab sec" style="left:62px;top:240px">AN LLM INSIDE YOUR CODE</div>
+<div class="ab node" style="left:60px;top:305px;width:190px;height:90px;border-color:#334155">Program state<small>ticket, record, row</small></div>
+<div class="ab node" style="left:320px;top:305px;width:190px;height:90px;border-color:#cbd5e1">LLM</div>
+<div class="ab node" style="left:580px;top:305px;width:190px;height:90px;border-color:#ff4fa3;font-size:19px">“High risk,<br>probably…”<small>token by token</small></div>
+<div class="ab node" style="left:840px;top:305px;width:190px;height:90px;border-color:#334155">Parse +<br>validate</div>
+<div class="ab lab" style="left:268px;top:296px"><span class="n g">1</span></div>
+<div class="ab lab" style="left:528px;top:296px"><span class="n p">2</span></div>
+<div class="ab lab" style="left:788px;top:296px"><span class="n g">3</span></div>
+<div class="ab" style="left:62px;top:435px;width:956px;text-align:center;font-weight:500;font-size:20px">Free text, written sequentially: <b style="color:#fff">slower, costlier, and confidence is unclear</b></div>
+
+<!-- Jev section -->
+<div class="ab sec" style="left:62px;top:554px;color:#19e3d1">SYSTEM ONE · JEV</div>
+<div class="ab node" style="left:60px;top:655px;width:240px;height:90px;border-color:#334155">Program state<small>+ schema defined in advance</small></div>
+<div class="ab node" style="left:370px;top:655px;width:230px;height:90px">Jev<small>all outputs in one pass</small></div>
+<div class="ab sec" style="left:700px;top:616px;color:#ff4fa3;font-size:15px">TYPED DECISION</div>
+<div class="ab row" style="top:650px">risk: high <b>p = 0.82</b></div>
+<div class="ab row" style="top:710px">route: billing <b>p = 0.91</b></div>
+<div class="ab row" style="top:770px;border-color:#ffd166;color:#ffd166;font-weight:700;justify-content:center">schema match guaranteed</div>
+<div class="ab node" style="left:60px;top:890px;width:540px;height:90px;border-color:#ffd166">Your code branches on confidence<small>confident → act · unsure → escalate to a human or an LLM</small></div>
+<div class="ab lab" style="left:318px;top:646px"><span class="n">1</span></div>
+<div class="ab lab" style="left:622px;top:646px"><span class="n">2</span></div>
+<div class="ab lab" style="left:870px;top:868px"><span class="n">3</span></div>
+<div class="ab" style="left:700px;top:845px;font-weight:500;font-size:14px;color:var(--mut)">example values</div>
+
+<!-- claims -->
+<div class="ab sec" style="left:62px;top:1068px;color:#ff4fa3">COMPANY-REPORTED · EARLY ACCESS</div>
+<div class="ab card" style="left:50px;top:1110px"><b>70–500 ms</b><span>end-to-end latency</span></div>
+<div class="ab card" style="left:385px;top:1110px"><b>$0.042 / M in</b><span>input tokens; output listed free</span></div>
+<div class="ab card" style="left:720px;top:1110px;border-color:#ffd166"><b>No free text</b><span>classify · route · score · extract</span></div>
+<div class="ab foot">PEGAH DAVARI · BACKEND &amp; AGENTIC SYSTEMS</div>
+<script>
+const g=document.querySelector('.flow');
+window.setF=(f,N)=>g.setAttribute('stroke-dashoffset',String(-20*f/N));
+setF(0,1);
+</script></body></html>

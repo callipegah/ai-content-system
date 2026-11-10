@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;font-weight:500;src:url(node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+@font-face{font-family:Inter;font-weight:700;src:url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:Inter;font-weight:800;src:url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+:root{--teal:#19e3d1;--pink:#ff4fa3;--yel:#ffd166;--txt:#cbd5e1;--mut:#64748b;--bord:#334155}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#000;font-family:Inter;color:var(--txt);position:relative;overflow:hidden}
+.pill{position:absolute;top:70px;left:50%;transform:translateX(-50%);border:2px solid var(--bord);border-radius:40px;padding:12px 30px;font-weight:700;font-size:20px;letter-spacing:.22em;white-space:nowrap}
+h1{position:absolute;top:160px;width:100%;text-align:center;font-weight:800;font-size:62px;line-height:1.18}
+h1 .a{color:var(--txt)} h1 .b{color:var(--pink);filter:drop-shadow(0 0 5px currentColor)}
+.desk{position:absolute;top:385px;left:110px;width:860px;height:500px}
+.lbl{position:absolute;font-weight:700;font-size:18px;letter-spacing:.2em;color:var(--mut)}
+.item{position:absolute;left:60px;width:740px;height:62px;border:2px solid var(--bord);border-radius:31px;display:flex;align-items:center;justify-content:space-between;padding:0 30px;font-weight:500;font-size:25px}
+.item b{font-weight:700;font-size:20px;letter-spacing:.06em;color:var(--mut)}
+.q{position:absolute;left:300px;width:260px;height:62px;border:2px solid var(--yel);border-radius:31px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:25px;color:var(--yel)}
+.flow{position:absolute;top:930px;width:100%;display:flex;justify-content:center;align-items:center;gap:22px;font-weight:700;font-size:26px}
+.flow span.box{border:2px solid var(--bord);border-radius:20px;padding:14px 22px}
+.flow .t{color:var(--teal)} .flow .arr{color:var(--mut);font-weight:500}
+.take{position:absolute;top:1060px;width:100%;text-align:center;font-weight:700;font-size:38px;color:#fff;line-height:1.3}
+.take em{font-style:normal;color:var(--yel)}
+.body{position:absolute;top:1175px;width:100%;text-align:center;font-weight:500;font-size:25px}
+.body i{font-style:normal;color:var(--teal)}
+.dots{position:absolute;top:1240px;left:50%;transform:translateX(-50%);display:flex;gap:14px}
+.dots span{width:12px;height:12px;border-radius:50%;border:2px solid var(--bord)} .dots span:first-child{background:var(--teal);border-color:var(--teal)}
+.foot{position:absolute;top:1288px;width:100%;text-align:center;font-weight:700;font-size:16px;letter-spacing:.3em;color:var(--mut)}
+</style></head><body>
+<div class="pill">TOKENS · WHAT THE MODEL COUNTS</div>
+<h1><span class="a">Your question is small.</span><br><span class="b">The desk is not.</span></h1>
+<div class="desk">
+  <svg width="860" height="500" style="position:absolute;left:0;top:0"><rect x="4" y="4" width="852" height="492" rx="34" fill="none" stroke="#ff4fa3" stroke-width="4" style="filter:drop-shadow(0 0 5px #ff4fa3)"/></svg>
+  <div class="lbl" style="top:26px;left:60px">CONTEXT WINDOW · RE-SENT WITH EVERY MESSAGE</div>
+  <div class="item" style="top:72px">the whole chat so far <b>GROWS</b></div>
+  <div class="item" style="top:150px">every attached file <b>STAYS</b></div>
+  <div class="item" style="top:228px">tool descriptions (MCP) <b>ALWAYS ON</b></div>
+  <div class="item" style="top:306px">hidden thinking <b style="color:#ffd166">OUTPUT = PRICIER</b></div>
+  <div class="q" style="top:398px">your question</div>
+</div>
+<div class="flow"><span class="box">85 MB · 1.2M rows</span><span class="arr">→</span><span class="box t">SQL runs outside</span><span class="arr">→</span><span class="box">7 rows back</span></div>
+<div class="take">Before buying a bigger context window,<br><em>clean the desk.</em></div>
+<div class="body">Let <i>tools</i> do the math. Send <i>results</i>, not raw data.</div>
+<div class="dots"><span></span><span></span><span></span><span></span><span></span></div>
+<div class="foot">PEGAH DAVARI · BACKEND &amp; AGENTIC SYSTEMS</div>
+</body></html>

@@ -1,0 +1,106 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;font-weight:500;src:url(node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+@font-face{font-family:Inter;font-weight:700;src:url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:Inter;font-weight:800;src:url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+:root{--teal:#19e3d1;--pink:#ff4fa3;--yel:#ffd166;--txt:#cbd5e1;--mut:#64748b;--bord:#334155}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;background:#000;font-family:Inter;color:var(--txt);position:relative;overflow:hidden}
+.a{position:absolute;opacity:0}
+.c{left:0;width:1080px;text-align:center}
+.pill{left:50%;border:2px solid var(--bord);border-radius:40px;padding:14px 34px;font-weight:700;font-size:24px;letter-spacing:.22em;white-space:nowrap}
+.h{font-weight:800;font-size:72px;line-height:1.15}
+.gp{color:var(--pink);filter:drop-shadow(0 0 5px currentColor)}
+.gt{color:var(--teal);filter:drop-shadow(0 0 5px currentColor)}
+.gy{color:var(--yel);filter:drop-shadow(0 0 5px currentColor)}
+.sub{font-weight:500;font-size:38px}
+.box{left:90px;width:900px;border:3px solid var(--bord);border-radius:30px;padding:34px 40px;background:#000}
+.box .k{font-weight:700;font-size:22px;letter-spacing:.2em;color:var(--mut);margin-bottom:16px}
+.box .v{font-weight:700;font-size:40px;color:#fff;line-height:1.3}
+.mono{font-family:"Courier New",monospace;font-weight:700}
+.row{left:150px;width:780px;height:96px;border:2px solid var(--bord);border-radius:48px;display:flex;align-items:center;justify-content:space-between;padding:0 40px;font-size:38px;color:#fff;font-weight:700}
+.row b{color:var(--teal);font-size:32px}
+.card{left:90px;width:900px;height:150px;border:2px solid var(--bord);border-radius:30px;display:flex;flex-direction:column;justify-content:center;padding:0 40px}
+.card b{font-weight:800;font-size:46px;color:#fff}
+.card span{font-weight:500;font-size:28px;margin-top:6px}
+.foot{top:1840px;font-weight:700;font-size:20px;letter-spacing:.3em;color:var(--mut)}
+.badge{left:50%;top:1590px;transform:translateX(-50%);display:flex;gap:18px}
+.badge span{border:2px solid var(--teal);border-radius:40px;padding:12px 26px;font-weight:700;font-size:26px;color:var(--teal);white-space:nowrap}
+</style></head><body>
+<div class="a c foot" data-in="0" data-out="99" data-instant>PEGAH DAVARI · BACKEND &amp; AGENTIC SYSTEMS</div>
+
+<!-- COVER (0-3) -->
+<div class="a pill" style="top:240px;transform:translateX(-50%)" data-in="0" data-out="3" data-instant data-keepx>NEW MODEL CLASS · JEV</div>
+<div class="a c h" style="top:520px;font-size:104px;line-height:1.08" data-in="0" data-out="3" data-instant>Decisions,<br><span class="gp">not sentences.</span></div>
+<div class="a c sub" style="top:850px" data-in="0" data-out="3" data-instant>Jev &amp; System One models, explained</div>
+<svg class="a" style="left:290px;top:1020px" width="500" height="420" data-in="0" data-out="3" data-instant>
+  <rect x="4" y="4" width="492" height="412" rx="34" fill="none" stroke="#19e3d1" stroke-width="4" style="filter:drop-shadow(0 0 5px #19e3d1)"/>
+  <text x="250" y="110" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#64748b" letter-spacing="5">TYPED DECISION</text>
+  <rect x="50" y="150" width="400" height="80" rx="40" fill="none" stroke="#334155" stroke-width="3"/>
+  <text x="80" y="202" font-family="Inter" font-weight="700" font-size="32" fill="#fff">urgency: high</text>
+  <text x="420" y="202" text-anchor="end" font-family="Inter" font-weight="700" font-size="28" fill="#19e3d1">0.82</text>
+  <rect x="50" y="260" width="400" height="80" rx="40" fill="none" stroke="#ffd166" stroke-width="3"/>
+  <text x="80" y="312" font-family="Inter" font-weight="700" font-size="32" fill="#ffd166">team: billing</text>
+  <text x="420" y="312" text-anchor="end" font-family="Inter" font-weight="700" font-size="28" fill="#19e3d1">0.91</text>
+</svg>
+<div class="a c" style="top:1520px;font-weight:700;font-size:34px;color:#fff" data-in="0" data-out="3" data-instant>No parsing. <span style="color:#ffd166">A confidence score.</span></div>
+
+<!-- S1: the question is a decision (3-10) -->
+<div class="a c h" style="top:200px" data-in="3.2" data-out="10">In your code, the question<br><span class="gt">is usually a decision.</span></div>
+<div class="a box" style="top:560px" data-in="4.2" data-out="10"><div class="k">SUPPORT TICKET</div><div class="v">“I was charged twice<br>for my ride.”</div></div>
+<div class="a c sub" style="top:960px" data-in="5.6" data-out="10">Two things to decide:</div>
+<div class="a row" style="top:1060px" data-in="6.3" data-out="10">How urgent? <b>?</b></div>
+<div class="a row" style="top:1180px" data-in="7.0" data-out="10">Which team? <b>?</b></div>
+
+<!-- S2: LLM path (10-17) -->
+<div class="a c h" style="top:200px" data-in="10.2" data-out="17">An LLM answers<br><span class="gp">in sentences.</span></div>
+<div class="a box" style="top:560px;border-color:#ff4fa3" data-in="10.8" data-out="17"><div class="k" style="color:#ff4fa3">LLM OUTPUT · TOKEN BY TOKEN</div><div class="v" data-type="This seems fairly urgent, and it probably belongs to the finance team…" data-tstart="11.2" data-tend="14.2"></div></div>
+<div class="a c" style="top:1010px;font-weight:800;font-size:56px;color:#fff" data-in="14.6" data-out="17">parse → validate → <span class="gp">hope</span></div>
+<div class="a c sub" style="top:1120px" data-in="15.3" data-out="17">and it rarely says when it's unsure</div>
+
+<!-- S3: Jev path (17-26) -->
+<div class="a c h" style="top:200px" data-in="17.2" data-out="26">Jev answers<br><span class="gt">in typed values.</span></div>
+<div class="a box" style="top:520px" data-in="18.0" data-out="26"><div class="k">1 · SCHEMA YOU DEFINE FIRST</div><div class="v mono" style="font-size:36px">urgency: low | medium | high<br>team: billing | safety | support</div></div>
+<div class="a c" style="top:880px;font-weight:700;font-size:32px;color:var(--mut)" data-in="19.6" data-out="26">2 · ALL OUTPUTS IN ONE PASS ↓</div>
+<div class="a row" style="top:960px" data-in="20.4" data-out="26">urgency: high <b>p = 0.82</b></div>
+<div class="a row" style="top:960px;top:1080px;border-color:#ffd166;color:#ffd166" data-in="20.4" data-out="26">team: billing <b>p = 0.91</b></div>
+<div class="a c sub" style="top:1240px" data-in="21.8" data-out="26">Only allowed values. <span style="color:#fff;font-weight:700">With a confidence score.</span></div>
+<div class="a c" style="top:1340px;font-weight:500;font-size:26px;color:var(--mut)" data-in="22.4" data-out="26">example values</div>
+
+<!-- S4: branch on confidence (26-32) -->
+<div class="a c h" style="top:200px" data-in="26.2" data-out="32">Your code<br><span class="gy">branches on confidence.</span></div>
+<div class="a box" style="top:600px;border-color:#19e3d1" data-in="27.0" data-out="32"><div class="k" style="color:#19e3d1">CONFIDENT</div><div class="v">→ act automatically</div></div>
+<div class="a box" style="top:880px;border-color:#ff4fa3" data-in="28.2" data-out="32"><div class="k" style="color:#ff4fa3">UNSURE</div><div class="v">→ escalate to a human<br>or a full LLM</div></div>
+
+<!-- S5: claims (32-39) -->
+<div class="a c h" style="top:170px;font-size:64px" data-in="32.2" data-out="39">What TypeSafe<br><span class="gp">reports</span></div>
+<div class="a card" style="top:480px" data-in="33.0" data-out="39"><b>70–500 ms</b><span>end-to-end latency</span></div>
+<div class="a card" style="top:670px" data-in="33.8" data-out="39"><b>$0.042 / M input</b><span>output tokens listed as free</span></div>
+<div class="a card" style="top:860px;border-color:#ffd166" data-in="34.6" data-out="39"><b>No free text</b><span>classify · route · score · extract</span></div>
+<div class="a c sub" style="top:1100px;font-size:32px" data-in="35.6" data-out="39">Early access, company-reported numbers.<br><span style="color:#fff;font-weight:700">Wait for independent tests.</span></div>
+
+<!-- S6: end (39-45) -->
+<div class="a c h" style="top:520px;font-size:84px" data-in="39.3" data-out="99">Not a chat model.<br><span class="gp">A decision model.</span></div>
+<div class="a c sub" style="top:900px" data-in="40.5" data-out="99">It replaces the LLM <b style="color:#fff">as a classifier</b>,<br>not the LLM.</div>
+<div class="a pill" style="top:1200px;transform:translateX(-50%)" data-in="41.8" data-out="99" data-keepx>FOLLOW FOR MORE</div>
+
+<script>
+const els=[...document.querySelectorAll('.a')];
+const ease=t=>t<0?0:t>1?1:1-Math.pow(1-t,3);
+const types=[...document.querySelectorAll('[data-type]')];
+window.setT=function(t){
+  for(const e of els){
+    const i=+e.dataset.in,o=+e.dataset.out;
+    let p=e.hasAttribute('data-instant')?(t>=i?1:0):ease((t-i)/0.45);
+    let q=ease((t-(o-0.35))/0.35);
+    e.style.opacity=Math.max(0,p-q);
+    const kx=e.hasAttribute('data-keepx')?'translateX(-50%) ':'';
+    e.style.transform=`${kx}translateY(${(1-p)*28}px)`;
+  }
+  for(const e of types){
+    const s=e.dataset.type,a=+e.dataset.tstart,b=+e.dataset.tend;
+    const k=Math.max(0,Math.min(s.length,Math.round((t-a)/(b-a)*s.length)));
+    e.textContent=s.slice(0,k)+(t<b+0.6&&t>=a?'▌':'');
+  }
+};
+setT(0);
+</script></body></html>

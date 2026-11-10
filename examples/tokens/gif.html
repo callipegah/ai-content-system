@@ -1,0 +1,91 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;font-weight:500;src:url(node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+@font-face{font-family:Inter;font-weight:700;src:url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:Inter;font-weight:800;src:url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+:root{--teal:#19e3d1;--pink:#ff4fa3;--yel:#ffd166;--txt:#cbd5e1;--mut:#64748b;--bord:#334155}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#000;font-family:Inter;color:var(--txt);position:relative;overflow:hidden}
+.ab{position:absolute}
+.pill{left:50%;transform:translateX(-50%);top:34px;border:2px solid var(--bord);border-radius:40px;padding:10px 28px;font-weight:700;font-size:19px;letter-spacing:.22em;white-space:nowrap}
+.title{top:96px;width:100%;text-align:center;font-weight:800;font-size:60px;color:var(--pink);filter:drop-shadow(0 0 5px currentColor)}
+.sub{top:176px;width:100%;text-align:center;font-weight:500;font-size:26px}
+.sec{font-weight:700;font-size:19px;letter-spacing:.2em;color:var(--mut)}
+.node{border:2px solid var(--teal);border-radius:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;font-size:26px;color:#fff;background:#06100f}
+.row{left:662px;width:326px;height:50px;border:2px solid var(--bord);border-radius:25px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;font-weight:500;font-size:21px;background:#000}
+.row b{font-weight:700;font-size:15px;letter-spacing:.08em;color:var(--mut)}
+.lab{font-weight:500;font-size:20px;color:var(--txt);display:flex;align-items:center;gap:10px;white-space:nowrap}
+.n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#000;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center}
+.n.p{background:var(--pink)} .n.y{background:var(--yel)}
+.tip{width:320px;height:112px;border:2px solid var(--bord);border-radius:20px;display:flex;align-items:center;gap:16px;padding:0 18px;background:#000}
+.tip .tx{font-weight:700;font-size:22px;color:#fff;line-height:1.2}
+.tip .tx small{display:block;font-weight:500;font-size:17px;color:var(--txt);margin-top:4px}
+.foot{top:1300px;width:100%;text-align:center;font-weight:700;font-size:15px;letter-spacing:.3em;color:var(--mut)}
+</style></head><body>
+<div class="ab pill">TOKENS · EP. 01</div>
+<div class="ab title">5-hour limit reached</div>
+<div class="ab sub">What actually filled it, and how to avoid it</div>
+
+<svg class="ab" style="left:0;top:0" width="1080" height="1350">
+  <defs>
+    <marker id="ah" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#cbd5e1" stroke-width="2"/></marker>
+    <marker id="ahp" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#ff4fa3" stroke-width="2"/></marker>
+  </defs>
+  <!-- section frames -->
+  <rect x="30" y="232" width="1020" height="548" rx="30" fill="none" stroke="#19e3d1" stroke-width="3" style="filter:drop-shadow(0 0 4px #19e3d1)"/>
+  <rect x="30" y="804" width="1020" height="474" rx="30" fill="none" stroke="#ff4fa3" stroke-width="3" style="filter:drop-shadow(0 0 4px #ff4fa3)"/>
+  <!-- context window box -->
+  <rect x="644" y="292" width="362" height="330" rx="22" fill="none" stroke="#ff4fa3" stroke-width="3" style="filter:drop-shadow(0 0 4px #ff4fa3)"/>
+  <!-- user icon -->
+  <circle cx="150" cy="340" r="44" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="150" cy="328" r="14" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <path d="M124,366 Q150,340 176,366" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <!-- animated connectors -->
+  <g class="flow" fill="none" stroke-width="2.5" stroke-dasharray="12 8">
+    <line x1="198" y1="325" x2="340" y2="325" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <line x1="340" y1="358" x2="198" y2="358" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <line x1="530" y1="340" x2="640" y2="340" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <polyline points="644,600 590,600 590,640 534,640" stroke="#cbd5e1" marker-end="url(#ah)"/>
+    <line x1="430" y1="598" x2="430" y2="386" stroke="#ff4fa3" marker-end="url(#ahp)"/>
+  </g>
+</svg>
+
+<!-- top section -->
+<div class="ab sec" style="left:64px;top:252px">WHAT EVERY MESSAGE SENDS</div>
+<div class="ab" style="left:110px;top:392px;width:80px;text-align:center;font-weight:700;font-size:22px;color:#fff">User</div>
+<div class="ab node" style="left:340px;top:296px;width:190px;height:88px">Chat app</div>
+<div class="ab node" style="left:340px;top:600px;width:190px;height:88px;border-color:#ffd166">LLM<span style="font-weight:500;font-size:16px;color:var(--mut)">no memory</span></div>
+<div class="ab sec" style="left:664px;top:306px;color:#ff4fa3">CONTEXT WINDOW</div>
+<div class="ab row" style="top:346px">whole chat so far <b>GROWS</b></div>
+<div class="ab row" style="top:406px">attached files <b>STAY</b></div>
+<div class="ab row" style="top:466px;font-size:20px">MCP tool descriptions <b>ALWAYS</b></div>
+<div class="ab row" style="top:526px;border-color:#ffd166;color:#ffd166;font-weight:700;justify-content:center">your question</div>
+
+<div class="ab lab" style="left:205px;top:280px"><span class="n">1</span>question</div>
+<div class="ab lab" style="left:205px;top:372px;display:none"></div>
+<div class="ab lab" style="left:536px;top:282px"><span class="n">2</span></div>
+<div class="ab lab" style="left:536px;top:352px;font-size:17px;line-height:1.25;white-space:normal;width:100px">re-sends<br>everything</div>
+<div class="ab lab" style="left:560px;top:652px"><span class="n">3</span>reads ALL of it</div>
+<div class="ab lab" style="left:110px;top:470px;flex-direction:column;align-items:flex-end;gap:6px;width:308px">
+  <span style="display:flex;gap:10px;align-items:center"><span class="n p">4</span><span style="color:#fff;font-weight:700">thinks + writes</span></span>
+  <span style="font-size:18px;color:#ff4fa3">output = the pricier part</span></div>
+<div class="ab lab" style="left:205px;top:372px;margin-top:0"><span class="n">5</span>answer</div>
+<div class="ab" style="left:64px;top:720px;width:952px;text-align:center;font-weight:700;font-size:24px;color:#fff">Every message re-sends the whole desk. <span style="color:#ffd166">Long chats burn the limit.</span></div>
+
+<!-- bottom section -->
+<div class="ab sec" style="left:64px;top:824px;color:#ff4fa3">HOW NOT TO HIT IT</div>
+<div class="ab tip" style="left:50px;top:866px"><span class="n">1</span><div class="tx">New task → new chat<small>carry a short summary</small></div></div>
+<div class="ab tip" style="left:380px;top:866px"><span class="n">2</span><div class="tx">Edit, don't reply<small>no “no, I meant…”</small></div></div>
+<div class="ab tip" style="left:710px;top:866px"><span class="n">3</span><div class="tx">Short output<small>“just the query”</small></div></div>
+<div class="ab tip" style="left:50px;top:996px"><span class="n">4</span><div class="tx">Light model<small>for simple work</small></div></div>
+<div class="ab tip" style="left:380px;top:996px"><span class="n">5</span><div class="tx">Thinking only<small>for hard problems</small></div></div>
+<div class="ab tip" style="left:710px;top:996px"><span class="n y">6</span><div class="tx">Tools do the math<small>SQL / Python computes</small></div></div>
+<div class="ab tip" style="left:50px;top:1126px"><span class="n y">7</span><div class="tx">Aggregate + LIMIT<small>rows sit on the desk</small></div></div>
+<div class="ab tip" style="left:380px;top:1126px"><span class="n y">8</span><div class="tx">Unused MCPs off<small>descriptions ride along</small></div></div>
+<div class="ab tip" style="left:710px;top:1126px"><span class="n y">9</span><div class="tx">Repeated → Skill<small>loaded only when needed</small></div></div>
+<div class="ab foot">PEGAH DAVARI · BACKEND &amp; AGENTIC SYSTEMS</div>
+<script>
+const g=document.querySelector('.flow');
+window.setF=(f,N)=>{g.setAttribute('stroke-dashoffset', String(-20*f/N));};
+setF(0,1);
+</script>
+</body></html>

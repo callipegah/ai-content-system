@@ -1,0 +1,99 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;font-weight:500;src:url(node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2)}
+@font-face{font-family:Inter;font-weight:700;src:url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:Inter;font-weight:800;src:url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+:root{--teal:#19e3d1;--pink:#ff4fa3;--yel:#ffd166;--txt:#cbd5e1;--mut:#64748b;--bord:#334155}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#000;font-family:Inter;color:var(--txt);position:relative;overflow:hidden}
+.a{position:absolute;opacity:0}
+.c{left:0;width:1080px;text-align:center}
+.pill{left:50%;border:2px solid var(--bord);border-radius:40px;padding:14px 34px;font-weight:700;font-size:24px;letter-spacing:.22em;white-space:nowrap}
+.h{font-weight:800;font-size:66px;line-height:1.15}
+.glowp{color:var(--pink);filter:drop-shadow(0 0 5px currentColor)}
+.glowt{color:var(--teal);filter:drop-shadow(0 0 5px currentColor)}
+.glowy{color:var(--yel);filter:drop-shadow(0 0 5px currentColor)}
+.sub{font-weight:500;font-size:40px}
+.banner{left:90px;width:900px;height:250px;border:4px solid var(--pink);border-radius:34px;filter:drop-shadow(0 0 6px #ff4fa3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:#000}
+.banner .t1{font-weight:800;font-size:58px;color:var(--pink)}
+.banner .t2{font-weight:500;font-size:34px;color:var(--mut)}
+.row{left:120px;width:840px;height:82px;border:2px solid var(--bord);border-radius:48px;display:flex;align-items:center;justify-content:space-between;padding:0 40px;font-weight:500;font-size:36px}
+.row b{font-weight:700;font-size:24px;letter-spacing:.08em;color:var(--mut)}
+.deskbox{left:70px;width:940px;border:4px solid var(--pink);border-radius:34px;filter:drop-shadow(0 0 5px #ff4fa3)}
+.lbl{font-weight:700;font-size:24px;letter-spacing:.2em;color:var(--mut)}
+.q{left:330px;width:420px;height:82px;border:3px solid var(--yel);border-radius:48px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:38px;color:var(--yel)}
+.bar{height:84px;border-radius:20px;display:flex;align-items:center;padding-left:30px;font-weight:700;font-size:34px;color:#000}
+.tip{left:90px;width:900px;height:132px;border:2px solid var(--bord);border-radius:30px;display:flex;align-items:center;gap:30px;padding:0 34px}
+.num{flex:none;width:76px;height:76px;border-radius:50%;border:3px solid var(--teal);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:36px;color:var(--teal)}
+.tip .tx{font-weight:700;font-size:38px;color:#fff;line-height:1.2}
+.tip .tx small{display:block;font-weight:500;font-size:28px;color:var(--txt);margin-top:6px}
+.foot{top:1292px;font-weight:700;font-size:20px;letter-spacing:.3em;color:var(--mut)}
+</style></head><body>
+
+<!-- persistent footer -->
+<div class="a c foot" data-in="0" data-out="99">PEGAH DAVARI · BACKEND &amp; AGENTIC SYSTEMS</div>
+
+<!-- SCENE 1: the limit (0-5) -->
+<div class="a pill" style="top:150px;transform:translateX(-50%)" data-in="0.2" data-out="5" data-keepx>TOKENS · EP. 01</div>
+<div class="a banner" style="top:400px" data-in="0.6" data-out="5" data-pop>
+  <div class="t1">5-hour limit reached</div><div class="t2">resets 5:00 PM</div>
+</div>
+<div class="a c h" style="top:740px" data-in="2.0" data-out="5">Why did this<br><span class="glowp">happen so fast?</span></div>
+
+<!-- SCENE 2: the desk (5-14) -->
+<div class="a c h" style="top:80px" data-in="5.2" data-out="14">Your question is small.<br><span class="glowp">The desk is not.</span></div>
+<div class="a deskbox" style="top:330px;height:720px" data-in="5.8" data-out="14"></div>
+<div class="a lbl" style="top:368px;left:120px" data-in="6.0" data-out="14">CONTEXT WINDOW · RE-SENT EVERY MESSAGE</div>
+<div class="a row" style="top:425px" data-in="6.8" data-out="14">the whole chat so far <b>GROWS</b></div>
+<div class="a row" style="top:525px" data-in="7.8" data-out="14">every attached file <b>STAYS</b></div>
+<div class="a row" style="top:625px" data-in="8.8" data-out="14">tool descriptions (MCP) <b>ALWAYS ON</b></div>
+<div class="a row" style="top:725px" data-in="9.8" data-out="14">hidden thinking <b style="color:#ffd166">WRITTEN = PRICIER</b></div>
+<div class="a q" style="top:880px" data-in="11.0" data-out="14">your question</div>
+<div class="a c sub" style="top:1115px" data-in="11.8" data-out="14">Every message re-reads <span style="color:#fff;font-weight:700">all of it.</span></div>
+
+<!-- SCENE 3: reading vs writing (14-19) -->
+<div class="a c h" style="top:170px" data-in="14.2" data-out="19">Reading is cheap.<br><span class="glowy">Writing is not.</span></div>
+<div class="a lbl" style="top:500px;left:120px" data-in="14.8" data-out="19">INPUT · READ ALL AT ONCE</div>
+<div class="a bar" style="top:545px;left:120px;width:200px;background:var(--teal)" data-in="15.2" data-out="19" data-grow="200">1×</div>
+<div class="a lbl" style="top:690px;left:120px" data-in="15.8" data-out="19">OUTPUT · ONE TOKEN AT A TIME</div>
+<div class="a bar" style="top:735px;left:120px;width:840px;background:var(--pink)" data-in="16.2" data-out="19" data-grow="840">several ×</div>
+<div class="a c sub" style="top:930px" data-in="17.2" data-out="19">Long answers and thinking<br><span style="color:#fff;font-weight:700">burn your limit fastest.</span></div>
+
+<!-- SCENE 4: tips 1-5 (19-30) -->
+<div class="a c h" style="top:70px;font-size:58px" data-in="19.2" data-out="30">How not to<br><span class="glowt">hit the limit</span></div>
+<div class="a tip" style="top:280px" data-in="20.0" data-out="30"><div class="num">1</div><div class="tx">New task → new chat<small>carry over a short summary</small></div></div>
+<div class="a tip" style="top:435px" data-in="22.0" data-out="30"><div class="num">2</div><div class="tx">Edit your message<small>don't reply “no, I meant…”</small></div></div>
+<div class="a tip" style="top:590px" data-in="24.0" data-out="30"><div class="num">3</div><div class="tx">Ask for short output<small>“just the query, no explanation”</small></div></div>
+<div class="a tip" style="top:745px" data-in="26.0" data-out="30"><div class="num">4</div><div class="tx">Light model for simple work<small>strong model only when needed</small></div></div>
+<div class="a tip" style="top:900px" data-in="28.0" data-out="30"><div class="num">5</div><div class="tx">Thinking only for hard problems<small>thinking is writing you don't see</small></div></div>
+
+<!-- SCENE 5: tips 6-9 (30-40) -->
+<div class="a c h" style="top:70px;font-size:58px" data-in="30.2" data-out="40">Working with data?<br><span class="glowt">Keep it off the desk</span></div>
+<div class="a tip" style="top:280px" data-in="31.0" data-out="40"><div class="num">6</div><div class="tx">Let tools do the math<small>SQL or Python computes, the model reads results</small></div></div>
+<div class="a tip" style="top:435px" data-in="33.0" data-out="40"><div class="num">7</div><div class="tx">Aggregate + LIMIT<small>every returned row sits on the desk</small></div></div>
+<div class="a tip" style="top:590px" data-in="35.0" data-out="40"><div class="num">8</div><div class="tx">Turn off unused MCPs<small>their tool descriptions ride along every time</small></div></div>
+<div class="a tip" style="top:745px" data-in="37.0" data-out="40"><div class="num">9</div><div class="tx">Repeated instructions → a Skill<small>loaded only when it's needed</small></div></div>
+
+<!-- SCENE 6: end card (40-46) -->
+<div class="a c" style="top:260px;font-weight:700;font-size:48px;color:#fff" data-in="40.3" data-out="99">85 MB · 1.2M rows</div>
+<div class="a c" style="top:340px;font-weight:500;font-size:34px;color:var(--mut)" data-in="40.8" data-out="99">↓ SQL runs outside the model ↓</div>
+<div class="a c" style="top:410px;font-weight:700;font-size:48px;color:var(--teal)" data-in="41.3" data-out="99">7 rows back</div>
+<div class="a c h" style="top:590px;font-size:62px;color:#fff" data-in="42.2" data-out="99">Before buying a<br>bigger context window,<br><span class="glowy">clean the desk.</span></div>
+<div class="a pill" style="top:1040px;transform:translateX(-50%)" data-in="43.5" data-out="99" data-keepx>FOLLOW FOR EP. 02</div>
+
+<script>
+const els=[...document.querySelectorAll('.a')];
+const ease=t=>t<0?0:t>1?1:1-Math.pow(1-t,3);
+window.setT=function(t){
+  for(const e of els){
+    const i=+e.dataset.in, o=+e.dataset.out;
+    let p=ease((t-i)/0.45), q=ease((t-(o-0.35))/0.35);
+    let op=Math.max(0,p-q);
+    e.style.opacity=op;
+    const kx=e.hasAttribute('data-keepx')?'translateX(-50%) ':'';
+    if(e.hasAttribute('data-pop')) e.style.transform=`scale(${0.85+0.15*p})`;
+    else e.style.transform=`${kx}translateY(${(1-p)*28}px)`;
+    if(e.dataset.grow){e.style.width=(+e.dataset.grow)*ease((t-i)/0.9)+'px';}
+  }
+};
+setT(0);
+</script></body></html>
