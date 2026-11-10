@@ -94,7 +94,7 @@ css += """.mini{width:480px;margin:18px auto 0;height:80px;border:3px solid #334
 .mini b{color:#19e3d1;font-size:28px}.mini.y{border-color:#ffd166;color:#ffd166}
 .cap{position:absolute;left:70px;width:940px;top:1590px;text-align:center;font-weight:700;font-size:46px;line-height:1.3;color:#fff;opacity:0}"""
 html = f"""<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>
-<div class="a c foot" data-in="0" data-out="999" data-instant>PEGAH DAVARI · BACKEND &amp; AGENTIC SYSTEMS</div>
+<div class="a c foot" data-in="0" data-out="999" data-instant>BACKEND &amp; AGENTIC SYSTEMS</div>
 {chr(10).join(els)}
 <script>
 const els=[...document.querySelectorAll('.a')];

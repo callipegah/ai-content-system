@@ -1,6 +1,6 @@
 ---
 name: "lightboard-voice-explainer"
-description: "Narrated 9:16 explainer video in Pegah's Lightboard look: cover frame, scene animations synced to her voiceover (ElevenLabs preferred) and burned-in English subtitles."
+description: "Narrated 9:16 explainer video in the author's Lightboard look: cover frame, scene animations synced to their voiceover (ElevenLabs preferred) and burned-in English subtitles."
 ---
 
 # Lightboard voice explainer (9:16 narrated video)
@@ -59,7 +59,7 @@ With per-scene files from her, skip steps 2–4 and run the alignment on each fi
 
 ## 4. Timeline HTML (`gen.py`)
 
-- Canvas 1080 × 1920, black. `lightboard` palette and Inter 500/700/800 via `@fontsource/inter`. Glow only on titles and outlines. Footer `PEGAH DAVARI · BACKEND & AGENTIC SYSTEMS`.
+- Canvas 1080 × 1920, black. `lightboard` palette and Inter 500/700/800 via `@fontsource/inter`. Glow only on titles and outlines. Footer `BACKEND & AGENTIC SYSTEMS`.
 - Scene timing comes from the audio:
   - cover = 2.6 s silent;
   - every other scene = `LEAD 0.3 + clip duration + GAP 0.45`;

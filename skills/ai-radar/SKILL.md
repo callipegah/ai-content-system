@@ -1,11 +1,11 @@
 ---
 name: "ai-radar"
-description: "Build Pegah's AI Radar: search her fixed sources for recent AI, agents, backend, AI video/image, health tech, psychology and startup news plus 3-month durable lessons, compile numbered items with tick boxes, repos, videos and links as a bilingual (English and Persian) Claude Doc."
+description: "Build the author's AI Radar: search a fixed list of sources for recent AI, agents, backend, AI video/image, health tech, psychology and startup news plus 3-month durable lessons, compile numbered items with tick boxes, repos, videos and links as a bilingual (English and Persian) Claude Doc."
 ---
 
 # AI Radar
 
-The radar is the input of Pegah's content system:
+The radar is the input of the author's content system:
 Radar (English + Persian, every 3 days) → she ticks items in the doc → she says "go through the ticked ones" in a new chat → the `radar-deep-dive` skill teaches each ticked item and produces posts and images (with `rewind` and `lightboard`).
 
 The radar has two jobs: what is new (trends) and what is worth learning (durable lessons). Never only trends.
@@ -67,7 +67,7 @@ Substack homepages need JavaScript; fetch the `/feed` URL. Feeds can be very lar
 - [ ] Deep dive this
 - Hook: the curiosity moment, one or two lines
 - What happened: facts, numbers, dates
-- Why it matters: ideally tied to her work (LLM analytics agent at work, skill/tool layers, Reels pipeline, AI twin, side projects)
+- Why it matters: ideally tied to their work (LLM analytics agent at work, skill/tool layers, Reels pipeline, AI twin, side projects)
 - Deep-dive keyword: terms she can search
 - Repo / Video / News: links
 ```

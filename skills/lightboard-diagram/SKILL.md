@@ -1,6 +1,6 @@
 ---
 name: "lightboard-diagram"
-description: "Animated ByteByteGo-style explainer diagram in Pegah's Lightboard look: one full 4:5 diagram with numbered flow steps and moving dashed arrows, exported as an autoplaying GIF for LinkedIn."
+description: "Animated ByteByteGo-style explainer diagram in the author's Lightboard look: one full 4:5 diagram with numbered flow steps and moving dashed arrows, exported as an autoplaying GIF for LinkedIn."
 ---
 
 # Lightboard diagram (animated GIF)
@@ -33,7 +33,7 @@ Reference output: "TOKENS · EP. 01 / 5-hour limit reached" (top: what every mes
    - Step labels: filled circles (34px, teal; pink for the critical step; black number, weight 800) next to a short label, 18 to 20px.
    - Close the section with one bold takeaway line: white with the key phrase in yellow.
 4. **Section 2: the grid** (optional). A pink-outlined frame with a label (e.g. `HOW NOT TO HIT IT`). 3 columns × up to 3 rows of cards (320 × 112, 2px `#334155`, rx 20). Each card: number circle + bold title (22px white) + one short sub-line (17px). Colour-code the groups (teal numbers for group A, yellow for group B).
-5. **Footer**: `PEGAH DAVARI · BACKEND & AGENTIC SYSTEMS`, 15px, `--mut`, uppercase, letter-spacing 0.3em.
+5. **Footer**: `BACKEND & AGENTIC SYSTEMS`, 15px, `--mut`, uppercase, letter-spacing 0.3em.
 
 Keep 40+ px margins and generous black space. One idea per diagram. Text must fit in one line per pill; shorten the tag rather than wrap.
 

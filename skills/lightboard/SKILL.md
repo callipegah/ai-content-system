@@ -1,6 +1,6 @@
 ---
 name: "lightboard"
-description: "Make visuals in Pegah's Lightboard style (clean neon on black, like her Day 0 LinkedIn cover) for LinkedIn images, Instagram posts, Reels covers, YouTube thumbnails and slides. Use when she says Lightboard."
+description: "Make visuals in the author's Lightboard style (clean neon on black, like their Day 0 LinkedIn cover) for LinkedIn images, Instagram posts, Reels covers, YouTube thumbnails and slides. Use when she says Lightboard."
 ---
 
 # Lightboard visuals
@@ -64,7 +64,7 @@ npm install @fontsource/inter @fontsource/vazirmatn
 3. One diagram in the middle, with generous black space around it.
 4. Takeaway line in white with the key phrase in `--yel`.
 5. One or two lines of body text in `--txt` (her own example).
-6. Progress dots + footer `PEGAH DAVARI · BACKEND & AGENTIC SYSTEMS` in `--mut`, uppercase, wide spacing.
+6. Progress dots + footer `BACKEND & AGENTIC SYSTEMS` in `--mut`, uppercase, wide spacing.
 
 Center-aligned by default. One idea per image.
 

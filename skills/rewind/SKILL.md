@@ -1,9 +1,9 @@
 ---
 name: "rewind"
-description: "Write posts, captions and video scripts in Pegah's own voice (Rewind style) for LinkedIn (English), Instagram (Persian) and YouTube (bilingual). Use when she says Rewind or asks for a post, caption or script."
+description: "Write posts, captions and video scripts in the author's own voice (Rewind style) for LinkedIn (English), Instagram (Persian) and YouTube (bilingual). Use when she says Rewind or asks for a post, caption or script."
 ---
 
-# Rewind: Pegah's writing voice
+# Rewind: the author's writing voice
 
 Rewind = teaching from the end back to the start. Begin from a real moment (a need or a curiosity), go one layer deeper at a time, close early with one practical takeaway.
 

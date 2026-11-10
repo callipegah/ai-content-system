@@ -1,6 +1,6 @@
 ---
 name: "radar-deep-dive"
-description: "Go through the items Pegah ticked in her AI Radar doc: teach each one in Persian, step by step and tied to her work, then produce an English LinkedIn post with links, a Persian Instagram caption, and a Lightboard image. Use when she says go through the ticked ones, تیکخوردهها را برو, or deep dive."
+description: "Go through the items the author ticked in their AI Radar doc: teach each one in Persian, step by step and tied to their work, then produce an English LinkedIn post with links, a Persian Instagram caption, and a Lightboard image. Use when she says go through the ticked ones, تیکخوردهها را برو, or deep dive."
 ---
 
 # Radar deep dive

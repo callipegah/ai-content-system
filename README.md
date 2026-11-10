@@ -61,4 +61,4 @@ The HTML files load fonts from `node_modules/@fontsource`. The video scripts nee
 
 Early and evolving. Expect rough edges. Skills change as I learn what works.
 
-*Pegah Davari · Backend & Agentic Systems*
+*Backend & Agentic Systems*
